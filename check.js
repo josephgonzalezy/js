@@ -18,7 +18,7 @@ async function checkUsername(username) {
 
 for(let i = 0; i < 100; i++) {
     var username = randomstring.generate({
-        length: 5,
+        length: 4,
         charset: 'alphabetic',
         capitalization: 'lowercase'
     });
